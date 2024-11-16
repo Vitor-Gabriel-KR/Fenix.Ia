@@ -1,0 +1,29 @@
+body {
+    padding-top: 70px;
+}
+
+.jumbotron {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210903/pngtree-apparel-and-clothing-shop-decoration-art-sewing-machine-photography-map-with-image_794779.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e4e4e4;
+}
+
+.jumbotron .container {
+    text-align: center;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.jumbotron h1, .jumbotron p {
+    font-weight: bold;
+}

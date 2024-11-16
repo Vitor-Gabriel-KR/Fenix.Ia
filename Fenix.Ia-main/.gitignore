@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretório de dependências
+node_modules/
+
+# Diretório de build
+dist/
+build/
+
+# Dados temporários
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações do editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Configurações de ambiente
+.env
+.env.*.local
+
+# Configurações locais de pacotes
+.npm/
+.cache/
+
+# Arquivos de teste de saída
+coverage/
+
+# Relatórios
+*.lcov
+.nyc_output/
+
+# Docker
+.dockerignore
+
+# Arquivos de pacotes bloqueados
+package-lock.json*
+yarn.lock
+pnpm-lock.yaml
+
+# Outras pastas relacionadas ao projeto
+out/
